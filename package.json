@@ -1,5 +1,5 @@
 {
-  "name": "format-date",
+  "name": "node-format-date",
   "version": "1.0.0",
   "description": "format date",
   "main": "FormatDate.js",
