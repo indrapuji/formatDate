@@ -1,7 +1,7 @@
 {
   "name": "node-format-date",
   "version": "1.0.3",
-  "description": "format date",
+  "description": "format Indonesian date",
   "main": "FormatDate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "format-date",
-    "date-change"
+    "date-change",
+    "format-indonesian-date",
+    "indonesia-date"
   ],
   "author": "Indra Puji Novirwan",
   "license": "ISC",
