@@ -2,6 +2,10 @@ const formatTime = (date) => {
   var ts = new Date(date);
   return `${ts.toString().substr(16, 5)}`;
 };
+const formatDate = (date) => {
+  var ts = new Date(date);
+  return `${ts.toString().toLocaleString().substr(0, 10)}`;
+};
 
 const formatDay = (date) => {
   var ts = new Date(date);
@@ -65,4 +69,4 @@ const formatFullDate = (date) => {
   return newDate;
 };
 
-module.exports = { formatFullDate, formatTime, formatDay, formatMonth };
+module.exports = { formatFullDate, formatTime, formatDay, formatMonth, formatDate };
