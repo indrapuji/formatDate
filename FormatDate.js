@@ -4,7 +4,7 @@ const formatTime = (date) => {
 };
 const formatDate = (date) => {
   var ts = new Date(date);
-  return `${ts.toString().toLocaleString().substr(0, 10)}`;
+  return `${ts.toLocaleString().substr(0, 10)}`;
 };
 
 const formatDay = (date) => {
