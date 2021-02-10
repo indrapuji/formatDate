@@ -3,12 +3,16 @@ const formatTime = (date) => {
   return `${ts.toString().substr(16, 5)}`;
 };
 const formatDate = (date) => {
-  const ts = new Date(date);
-  const month = formatMonth(date);
-  const now = ts.toDateString().substr(8, 2);
-  const year = ts.toDateString().substr(11, 4);
-  const newDate = `${now} ${month} ${year}`;
-  return newDate;
+  if (date) {
+    const ts = new Date(date);
+    const month = formatMonth(date);
+    const now = ts.toDateString().substr(8, 2);
+    const year = ts.toDateString().substr(11, 4);
+    const newDate = `${now} ${month} ${year}`;
+    return newDate;
+  } else {
+    return date;
+  }
 };
 
 const formatDay = (date) => {

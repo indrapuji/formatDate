@@ -19,7 +19,7 @@ yarn add node-format-date
 ## Usage
 
 ```javascript
-const { formatFullDate, formatTime, formatDay, formatMonth, formarDate } = require('node-format-date');
+const { formatFullDate, formatTime, formatDay, formatMonth, formatDate } = require('node-format-date');
 
 const ts = new Date(); // 2020-12-29T05:25:43.223Z
 
